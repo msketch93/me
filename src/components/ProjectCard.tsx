@@ -1,6 +1,5 @@
-import { useState } from "react";
+import { CSSProperties, useMemo, useState } from "react";
 import { Card } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import ProjectDialog from "./ProjectDialog";
 
 interface ProjectCardProps {
@@ -10,14 +9,27 @@ interface ProjectCardProps {
     image: string[];
     tools: string[];
     description?: string;
-    behance_link?: string;
-    instagram_link?: string;
+    behance_url?: string;
+    instagram_url?: string;
   };
 }
 
 const ProjectCard = ({ project }: ProjectCardProps) => {
   const [dialogOpen, setDialogOpen] = useState(false);
   const [imageError, setImageError] = useState(false);
+  const descriptionPreview = useMemo(() => {
+    if (!project.description) return "";
+    return project.description.replace(/\*\*/g, "");
+  }, [project.description]);
+  const clampStyles: CSSProperties = useMemo(
+    () => ({
+      display: "-webkit-box",
+      WebkitLineClamp: "2",
+      WebkitBoxOrient: "vertical",
+      overflow: "hidden",
+    }),
+    [],
+  );
   
   // Extract Google Drive file ID from various URL formats
   const getGoogleDriveImageUrl = (url: string) => {
@@ -62,14 +74,12 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
         )}
         <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           <div className="absolute bottom-0 left-0 right-0 p-4">
-            <h3 className="text-foreground font-semibold mb-2 text-lg">{project.name}</h3>
-            <div className="flex flex-wrap gap-2">
-              {project.tools.slice(0, 3).map((tool) => (
-                <Badge key={tool} variant="secondary" className="text-xs bg-primary/20 text-primary border-primary/30">
-                  {tool}
-                </Badge>
-              ))}
-            </div>
+            <h3 className="text-foreground font-semibold mb-1 text-lg">{project.name}</h3>
+            {descriptionPreview && (
+              <p className="text-sm text-muted-foreground" style={clampStyles}>
+                {descriptionPreview}
+              </p>
+            )}
           </div>
         </div>
       </div>

@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import FloatingContact from "@/components/FloatingContact";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Palette, Sparkles, Heart } from "lucide-react";
+import { ArrowRight, Heart } from "lucide-react";
 import profileData from "@/data/profile.json";
 
 const Index = () => {
@@ -88,22 +88,8 @@ const Index = () => {
               </p>
             </div>
 
-            <div className="grid md:grid-cols-3 gap-6 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
-              <div className="text-center p-6 rounded-lg bg-background border border-border/50">
-                <Palette className="h-12 w-12 text-primary mx-auto mb-4" />
-                <h3 className="font-semibold mb-2">Art Style</h3>
-                <p className="text-sm text-muted-foreground">
-                  Expressive, emotional, richly detailed
-                </p>
-              </div>
-              <div className="text-center p-6 rounded-lg bg-background border border-border/50">
-                <Sparkles className="h-12 w-12 text-primary mx-auto mb-4" />
-                <h3 className="font-semibold mb-2">Mediums</h3>
-                <p className="text-sm text-muted-foreground">
-                  Acrylics, watercolor, digital, mixed media
-                </p>
-              </div>
-              <div className="text-center p-6 rounded-lg bg-background border border-border/50">
+            <div className="flex justify-center animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
+              <div className="text-center p-6 rounded-lg bg-background border border-border/50 max-w-sm w-full">
                 <Heart className="h-12 w-12 text-primary mx-auto mb-4" />
                 <h3 className="font-semibold mb-2">Inspiration</h3>
                 <p className="text-sm text-muted-foreground">

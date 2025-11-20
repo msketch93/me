@@ -1,6 +1,6 @@
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 import { Instagram } from "lucide-react";
@@ -12,12 +12,18 @@ interface ProjectDialogProps {
     image: string[];
     tools: string[];
     description?: string;
-    behance_link?: string;
-    instagram_link?: string;
+    behance_url?: string;
+    instagram_url?: string;
   };
   open: boolean;
   onOpenChange: (open: boolean) => void;
 }
+
+const BehanceIcon = () => (
+  <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M22 7h-7V5h7v2zm1.733 10.021c-.452 1.315-2.088 3.164-5.253 3.164-3.1 0-5.62-1.739-5.62-5.84s2.33-6.025 5.5-6.025c3.108 0 5.018 1.828 5.433 4.532.08.507.11 1.192.096 2.147h-8.122c.132 3.293 3.524 3.395 4.65 2.079h3.316zM16 12h5.021c-.106-1.578-1.154-2.263-2.512-2.263-1.485 0-2.306.783-2.509 2.263zM6.043 20H-.5V5H6.535c5.557.08 5.662 5.594 2.759 7.098 3.514 1.295 3.631 8.167-3.251 8.167zM2 11h3.641c2.552 0 2.956-3.041-.318-3.041H2V11zm3.46 3H2v3.058h3.41c3.096 0 2.905-3.058.05-3.058z" />
+  </svg>
+);
 
 const ProjectDialog = ({ project, open, onOpenChange }: ProjectDialogProps) => {
   const [imageError, setImageError] = useState<{ [key: number]: boolean }>({});
@@ -39,6 +45,24 @@ const ProjectDialog = ({ project, open, onOpenChange }: ProjectDialogProps) => {
   };
 
   const hasMultipleImages = project.image.length > 1;
+  const socialLinks = useMemo(() => {
+    const links = [];
+    if (project.behance_url) {
+      links.push({
+        label: "Behance",
+        href: project.behance_url,
+        icon: <BehanceIcon />,
+      });
+    }
+    if (project.instagram_url) {
+      links.push({
+        label: "Instagram",
+        href: project.instagram_url,
+        icon: <Instagram className="h-5 w-5" />,
+      });
+    }
+    return links;
+  }, [project.behance_url, project.instagram_url]);
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
@@ -54,24 +78,30 @@ const ProjectDialog = ({ project, open, onOpenChange }: ProjectDialogProps) => {
               opts={{
                 align: "center",
                 loop: true,
+                dragFree: true,
+                containScroll: "trimSnaps",
+                breakpoints: {
+                  "(max-width: 768px)": { dragFree: true },
+                },
               }}
               plugins={[
                 Autoplay({
                   delay: 4000,
                   stopOnInteraction: true,
+                  stopOnMouseEnter: true,
                 }),
               ]}
               className="w-full"
             >
-              <CarouselContent>
+              <CarouselContent className="cursor-grab touch-pan-y active:cursor-grabbing">
                 {project.image.map((img, index) => (
-                  <CarouselItem key={index}>
-                    <div className="relative aspect-[4/3] bg-muted rounded-lg overflow-hidden">
+                  <CarouselItem key={index} className="transition-all duration-500 ease-out">
+                    <div className="relative aspect-[4/3] bg-muted rounded-2xl overflow-hidden border border-border/50 shadow-lg">
                       {!imageError[index] ? (
                         <img
                           src={getGoogleDriveImageUrl(img)}
                           alt={`${project.name} - Image ${index + 1}`}
-                          className="w-full h-full object-contain"
+                          className="w-full h-full object-contain transition-transform duration-700 ease-out hover:scale-[1.01]"
                           onError={() => setImageError({ ...imageError, [index]: true })}
                         />
                       ) : (
@@ -87,12 +117,12 @@ const ProjectDialog = ({ project, open, onOpenChange }: ProjectDialogProps) => {
               <CarouselNext className="right-4" />
             </Carousel>
           ) : (
-            <div className="relative aspect-[4/3] bg-muted rounded-lg overflow-hidden">
+            <div className="relative aspect-[4/3] bg-muted rounded-2xl overflow-hidden border border-border/50 shadow-lg">
               {!imageError[0] ? (
                 <img
                   src={getGoogleDriveImageUrl(project.image[0])}
                   alt={project.name}
-                  className="w-full h-full object-contain"
+                  className="w-full h-full object-contain transition-transform duration-700 ease-out"
                   onError={() => setImageError({ ...imageError, 0: true })}
                 />
               ) : (
@@ -104,26 +134,21 @@ const ProjectDialog = ({ project, open, onOpenChange }: ProjectDialogProps) => {
           )}
 
           {/* Social Links */}
-          {(project.behance_link || project.instagram_link) && (
-            <div className="flex gap-3">
-              {project.behance_link && (
-                <Button variant="outline" asChild className="flex-1">
-                  <a href={project.behance_link} target="_blank" rel="noopener noreferrer">
-                    <svg className="h-5 w-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M22 7h-7v-2h7v2zm1.726 10c-.442 1.297-2.029 3-5.101 3-3.074 0-5.564-1.729-5.564-5.675 0-3.91 2.325-5.92 5.466-5.92 3.082 0 4.964 1.782 5.375 4.426.078.506.109 1.188.095 2.14h-8.027c.13 3.211 3.483 3.312 4.588 2.029h3.168zm-7.686-4h4.965c-.105-1.547-1.136-2.219-2.477-2.219-1.466 0-2.277.768-2.488 2.219zm-9.574 6.988h-6.466v-14.967h6.953c5.476.081 5.58 5.444 2.72 6.906 3.461 1.26 3.577 8.061-3.207 8.061zm-3.466-8.988h3.584c2.508 0 2.906-3-.312-3h-3.272v3zm3.391 3h-3.391v3.016h3.341c3.055 0 2.868-3.016.05-3.016z"/>
-                    </svg>
-                    View on Behance
+          {socialLinks.length > 0 && (
+            <div className="flex flex-col gap-3 sm:flex-row">
+              {socialLinks.map((link) => (
+                <Button
+                  key={link.href}
+                  variant="secondary"
+                  asChild
+                  className="flex-1 justify-center gap-2 text-base"
+                >
+                  <a href={link.href} target="_blank" rel="noopener noreferrer">
+                    {link.icon}
+                    <span>View on {link.label}</span>
                   </a>
                 </Button>
-              )}
-              {project.instagram_link && (
-                <Button variant="outline" asChild className="flex-1">
-                  <a href={project.instagram_link} target="_blank" rel="noopener noreferrer">
-                    <Instagram className="h-5 w-5 mr-2" />
-                    View on Instagram
-                  </a>
-                </Button>
-              )}
+              ))}
             </div>
           )}
 
