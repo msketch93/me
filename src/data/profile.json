@@ -1,0 +1,967 @@
+{
+  "profile": {
+    "name": "Mona Rafaat Abd El Ghani",
+    "nickName": "MSketch",
+    "birth_date": "December 24, 1993",
+    "sm_address": "Maadi, Cairo, Egypt",
+    "lg_address": "17 Saqr Quraish, Al Kanadi, Maadi, Cairo, Egypt",
+    "phone": "01115408161",
+    "email": "nono.medo281512@gmail.com",
+    "projects": "55",
+    "about": "MSketch is a passionate visual artist and painter who transforms emotion, nature, and imagination into vibrant works of art. With every brushstroke, she tells a story — one filled with color, texture, and meaning. Her paintings often blend realism and expressive abstraction, capturing both the beauty of the world and the depth of human feeling.\n\nHer journey as an artist began from a simple love for sketching and has evolved into a lifelong exploration of creativity. Whether she’s painting soulful portraits, serene landscapes, or conceptual art pieces, MSketch aims to evoke emotion and inspire connection through her work.\n\n💫 Art Style: Expressive, emotional, and richly detailed — merging classical techniques with a modern touch.\n🎨 Mediums: Acrylics, watercolor, digital painting, and mixed media.\n🌍 Inspiration: Everyday moments, nature’s rhythm, human stories, and the power of imagination.",
+    "social_accounts": [
+      {
+        "name": "Linked In",
+        "url": "https://www.linkedin.com/in/darkcatxiii/"
+      },
+      {
+        "name": "Behance",
+        "url": "https://www.behance.net/msketch"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/msketch.93/"
+      },
+      {
+        "name": "Whatsapp",
+        "url": "https://wa.me/+20115408161"
+      }
+    ]
+  },
+  "education": [
+    {
+      "name": "Ain Shams University",
+      "date": "2013 - 2016",
+      "main": false,
+      "todo": "Faculty of Commerce"
+    },
+    {
+      "name": "Ain Shams University",
+      "date": "2024-2025",
+      "main": true,
+      "todo": "Faculty Of Education"
+    }
+  ],
+  "work": [
+    {
+      "name": "Ali Al-Khatib, Tax Office",
+      "date": "Feb 2020 - Aug 2021",
+      "position": "Tax accountant",
+      "location": "Nasr City",
+      "role": "Full-time"
+    },
+    {
+      "name": "School of Saint Mary",
+      "date": "Feb 2019 - Feb 2020",
+      "position": "Drawing Teacher",
+      "location": "El-Zaytoun",
+      "role": "Part-time"
+    }
+  ],
+  "projects": [
+    {
+      "id": 0,
+      "name": "Purple Japanese Maple",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/17Zw9Ja-Cdyn39_ymSj8ei0M_L6YDjtXd/view?usp=drive_link"
+      ],
+      "tools": [
+        "paint",
+        "colors",
+        "nature"
+      ],
+      "behance_url": "https://www.behance.net/gallery/A/purple-maple",
+      "instagram_url": "",
+      "description": "A vivid study of nature’s theatricality. This painting captures the **Japanese Maple** in its most intense, saturated **purple** and crimson phase, using expressive brushstrokes to highlight the delicate yet dramatic structure of its foliage."
+    },
+    {
+      "id": 1,
+      "name": "Summer Girl",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/thumbnail?id=summer-girl.jpg"
+      ],
+      "tools": [
+        "paint",
+        "colors",
+        "portrait"
+      ],
+      "behance_url": "",
+      "instagram_url": "https://www.instagram.com/p/B/summergirl_art",
+      "description": "An emotional **portrait** reflecting the effortless joy and sun-drenched palette of a **summer** day. The use of bright **colors** emphasizes the warmth and youthful energy captured in the subject's expression."
+    },
+    {
+      "id": 2,
+      "name": "Different Beauty Portrait",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/thumbnail?id=different-beauty-portrait.jpg"
+      ],
+      "tools": [
+        "paint",
+        "colors",
+        "portrait"
+      ],
+      "behance_url": "https://www.behance.net/gallery/B/beauty-portrait-abstract",
+      "instagram_url": "https://www.instagram.com/p/C/beauty-different",
+      "description": "A celebration of unconventional **beauty**. This **portrait** uses bold **colors** and contrasting textures to define a unique face, challenging traditional standards and focusing on the depth of individual character."
+    },
+    {
+      "id": 3,
+      "name": "Model Girl Sketch",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1rC0TtP_sAIAKw4VCRzBGNnyRGHJxjx7O/view?usp=drive_link"
+      ],
+      "tools": [
+        "pencil",
+        "sketch",
+        "portrait"
+      ],
+      "behance_url": "https://www.behance.net/gallery/C/model-sketch-pencil",
+      "instagram_url": "",
+      "description": "A masterful **pencil sketch** focusing on form and shadow. This quick, expressive study captures the elegant posture and subtle mood of a **model**, highlighting the foundational importance of realistic **portrait** drafting."
+    },
+    {
+      "id": 4,
+      "name": "Karim Abdel Aziz",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/17nlf63fxStPq9SeRf9ZniVNGF6ZoZub1/view?usp=drive_link"
+      ],
+      "tools": [
+        "pencil",
+        "sketch",
+        "portrait"
+      ],
+      "behance_url": "",
+      "instagram_url": "https://www.instagram.com/p/D/karim-sketch",
+      "description": "A realistic **pencil portrait** of the acclaimed actor **Karim Abdel Aziz**. The **sketch** focuses on capturing the intense expression and detailed facial features that define the subject."
+    },
+    {
+      "id": 5,
+      "name": "V for Vendetta",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/13mrqH5BsKIIsINaKzGMK06oXfem60Mbn/view?usp=drive_link"
+      ],
+      "tools": [
+        "paint",
+        "colors",
+        "digital"
+      ],
+      "behance_url": "https://www.behance.net/gallery/E/v-for-vendetta-digital",
+      "instagram_url": "https://www.instagram.com/p/E/vendetta-post",
+      "description": "A striking **digital painting** inspired by the iconic mask and themes of **V for Vendetta**. Bold **colors** and dramatic lighting create a powerful, conceptual statement piece."
+    },
+    {
+      "id": 6,
+      "name": "The Witch",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/15WM50Mu6Ludt1zbBCViQL51EyuhOXREA/view?usp=drive_link"
+      ],
+      "tools": [
+        "paint",
+        "colors",
+        "digital"
+      ],
+      "behance_url": "",
+      "instagram_url": "",
+      "description": "An atmospheric **digital painting** exploring the mystery and power of **The Witch**. Moody **colors** and expressive **paint**work capture a dark, fantastical narrative."
+    },
+    {
+      "id": 7,
+      "name": "Girl of Mountain",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1GidCtYLLEpH4C6IFRIErhmSHo4U476Fb/view?usp=drive_link"
+      ],
+      "tools": [
+        "paint",
+        "colors",
+        "nature"
+      ],
+      "behance_url": "https://www.behance.net/gallery/G/mountain-girl-painting",
+      "instagram_url": "https://www.instagram.com/p/G/girl-mountain-view",
+      "description": "A serene **painting** depicting a **Girl** integrated with the powerful backdrop of a **Mountain**. The piece blends portraiture with a deep appreciation for **nature**, using earthy and cool **colors**."
+    },
+    {
+      "id": 8,
+      "name": "16th Century Ship on Sea",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1aufjOjmEFX30yp5xq7SYIZEl8bw5eqAF/view?usp=drive_link"
+      ],
+      "tools": [
+        "paint",
+        "colors",
+        "nature"
+      ],
+      "behance_url": "https://www.behance.net/gallery/H/ship-on-sea-oil",
+      "instagram_url": "",
+      "description": "A dramatic historical **painting** of a **16th Century Ship on Sea**. The work showcases intense classical detail and masterful control of **colors** to convey the raw power of **nature** and the ocean's vastness."
+    },
+    {
+      "id": 9,
+      "name": "2 Pieces Model Sketch",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1pFYZJCWETH6TP_fCOt47sgRaoZhjgAVs/view?usp=drive_link"
+      ],
+      "tools": [
+        "pencil",
+        "sketch",
+        "portrait"
+      ],
+      "behance_url": "",
+      "instagram_url": "https://www.instagram.com/p/I/two-models",
+      "description": "A dynamic pair of **pencil sketches** (2 Pieces) focused on capturing contrasting moods or poses of a **model**. This work demonstrates technical skill in **portrait** composition and shading."
+    },
+    {
+      "id": 10,
+      "name": "African tree Paint",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1XCLcpis6x9HVOcPehhn0lUinC9rIcfr3/view?usp=drive_link"
+      ],
+      "tools": [
+        "paint",
+        "colors",
+        "nature"
+      ],
+      "behance_url": "https://www.behance.net/gallery/J/african-tree-sunset",
+      "instagram_url": "https://www.instagram.com/p/J/africa-nature",
+      "description": "A warm, evocative **painting** of an **African tree** silhouetted against a brilliant sky. The use of rich, deep **colors** captures the stunning beauty and expansive sense of **nature** on the continent."
+    },
+    {
+      "id": 11,
+      "name": "Alpine Alps Mountain",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1kMGOoA11t2brEog7YmP46wQfD-D81UgK/view?usp=drive_link"
+      ],
+      "tools": [
+        "paint",
+        "colors",
+        "nature"
+      ],
+      "behance_url": "",
+      "instagram_url": "https://www.instagram.com/p/K/alps-mountain",
+      "description": "A majestic landscape **painting** capturing the dramatic scale and cool light of the **Alpine Alps Mountain**. This piece emphasizes texture and atmosphere to evoke the powerful feeling of being surrounded by high **nature**."
+    },
+    {
+      "id": 12,
+      "name": "Aristocratic Painting",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1B4aGf1eVNHH2aKPkkZuSSsQDQIzhFylQ/view?usp=drive_link"
+      ],
+      "tools": [
+        "paint",
+        "colors",
+        "portrait"
+      ],
+      "behance_url": "https://www.behance.net/gallery/L/aristocratic-lady",
+      "instagram_url": "",
+      "description": "A classical-style **portrait** that embodies the elegance and formality of an **Aristocratic** subject. Rich **paint** and deep **colors** focus on intricate details of fabric and expression, merging tradition with modern emotive technique."
+    },
+    {
+      "id": 13,
+      "name": "Bassel Khayat Sketch",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1czN71CDiDqnBhMDwTp6r1F0qZjEgXBwX/view?usp=drive_link"
+      ],
+      "tools": [
+        "pencil",
+        "sketch",
+        "portrait"
+      ],
+      "behance_url": "https://www.behance.net/gallery/M/bassel-khayat-drawing",
+      "instagram_url": "https://www.instagram.com/p/M/bassel-sketch",
+      "description": "A detailed **pencil sketch** capturing the intense gaze of actor **Bassel Khayat**. The **portrait** uses sharp contrast and delicate shading to convey emotion and character depth."
+    },
+    {
+      "id": 14,
+      "name": "Bird on branch",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1knzFiipbmbyIF_utZjbY374d4ABXWn7x/view?usp=drive_link"
+      ],
+      "tools": [
+        "paint",
+        "colors",
+        "nature"
+      ],
+      "behance_url": "",
+      "instagram_url": "https://www.instagram.com/p/N/bird-on-branch",
+      "description": "A peaceful **painting** of a **Bird on a branch**. This piece is a delicate study of **nature** and stillness, featuring bright, accurate **colors** to bring the subject to life."
+    },
+    {
+      "id": 15,
+      "name": "Charcoal animal drawing",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1gO7ZaHg3H7kVD8RCK17OGFm7hVKqx_YM/view?usp=drive_link",
+        "https://drive.google.com/file/d/1Cgg4-R-6ksjSKp2JNKTTGkSVKYq_Os4Y/view?usp=drive_link",
+        "https://drive.google.com/thumbnail?id=charcoal-animal-drawing-3.jpg"
+      ],
+      "tools": [
+        "charcoal",
+        "drawing",
+        "animal"
+      ],
+      "behance_url": "https://www.behance.net/gallery/O/charcoal-animals",
+      "instagram_url": "",
+      "description": "A visceral and textured **charcoal drawing** focused on the raw power and beauty of an **animal**. The medium allows for intense contrasts, capturing the subject's fur, muscle, and presence."
+    },
+    {
+      "id": 16,
+      "name": "Charcoal Gorilla",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1ynosO39OnbQqfIOXOfzcpSQY8XswMdCq/view?usp=drive_link"
+      ],
+      "tools": [
+        "charcoal",
+        "drawing",
+        "animal"
+      ],
+      "behance_url": "https://www.behance.net/gallery/P/charcoal-gorilla",
+      "instagram_url": "https://www.instagram.com/p/P/gorilla-drawing",
+      "description": "A powerful monochrome **charcoal drawing** depicting a majestic **Gorilla**. The deep blacks and rich gray tones highlight the intense expression and detailed texture of the **animal's** coat."
+    },
+    {
+      "id": 17,
+      "name": "Circle Flamenco Dancer painting",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1iE-aTz_eBuPC96creN_-wSr1KMJ-H3T0/view?usp=drive_link"
+      ],
+      "tools": [
+        "paint",
+        "colors",
+        "figurative"
+      ],
+      "behance_url": "",
+      "instagram_url": "https://www.instagram.com/p/Q/flamenco-circle",
+      "description": "A vibrant **figurative painting** of a **Flamenco Dancer** captured within a unique **circle** format. The swirling **colors** and dynamic pose emphasize the passion and movement of the dance."
+    },
+    {
+      "id": 18,
+      "name": "Dancer Painting",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1C5bppTb0w3Duh0nEbl7Kdnynuvqz5bx6/view?usp=drive_link"
+      ],
+      "tools": [
+        "paint",
+        "colors",
+        "figurative"
+      ],
+      "behance_url": "https://www.behance.net/gallery/R/dancer-art",
+      "instagram_url": "",
+      "description": "An expressive **figurative painting** focused on the grace and energy of a **Dancer**. Bold **colors** and flowing **paint**work convey the physical motion and emotional intensity of the performance."
+    },
+    {
+      "id": 19,
+      "name": "Drawing In Notebook",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1-DfQTCTk6rVJjN8TNLbANb6GSdHVDcVr/view?usp=drive_link",
+        "https://drive.google.com/file/d/1VELN3Nj0PBxsGrEvtDe34yQl3FJifdK1/view?usp=drive_link",
+        "https://drive.google.com/file/d/1JX_-tyHqneCiYbXjDOLdtOnbFA_CRDim/view?usp=drive_link",
+        "https://drive.google.com/file/d/1dYizYMhld4MJkQzFmhVbcUv54V1w4agy/view?usp=drive_link"
+      ],
+      "tools": [
+        "pencil",
+        "sketch",
+        "ink"
+      ],
+      "behance_url": "https://www.behance.net/gallery/S/notebook-sketches",
+      "instagram_url": "https://www.instagram.com/p/S/notebook-ink",
+      "description": "A collection of fluid **sketches and ink drawings** showcasing raw ideas and foundational techniques developed in an art **notebook**. It offers a glimpse into the artist's spontaneous creative process."
+    },
+    {
+      "id": 20,
+      "name": "Egyption farmer",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1xbmUao0ojpvApy_1ZICD97lTWyLzb24-/view?usp=drive_link"
+      ],
+      "tools": [
+        "paint",
+        "colors",
+        "portrait"
+      ],
+      "behance_url": "",
+      "instagram_url": "https://www.instagram.com/p/T/egyptian-farmer",
+      "description": "A soulful **portrait painting** honoring the quiet dignity and hard work of an **Egyptian farmer**. Earthy **colors** and realistic detailing capture the texture of life and wisdom in the subject's face."
+    },
+    {
+      "id": 21,
+      "name": "Feed Birds",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1aT0uxx2QKpskMeEk-gLxNPTZVgCw0eTo/view?usp=drive_link"
+      ],
+      "tools": [
+        "paint",
+        "colors",
+        "nature"
+      ],
+      "behance_url": "https://www.behance.net/gallery/U/feed-birds-painting",
+      "instagram_url": "",
+      "description": "A gentle scene captured in **paint**, depicting the intimate interaction of feeding **birds**. The work celebrates the tranquility of **nature** and uses soft **colors** to create a peaceful atmosphere."
+    },
+    {
+      "id": 22,
+      "name": "Freedom Sketch",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1PPgF_221e82WCZTPEgRSLwkrX0NPj5tX/view?usp=drive_link"
+      ],
+      "tools": [
+        "pencil",
+        "sketch",
+        "conceptual"
+      ],
+      "behance_url": "https://www.behance.net/gallery/V/freedom-conceptual",
+      "instagram_url": "https://www.instagram.com/p/V/freedom-sketch",
+      "description": "A powerful **conceptual sketch** using **pencil** to explore the profound idea of **Freedom**. The composition uses symbolic imagery and stark contrasts to evoke a sense of release and open possibility."
+    },
+    {
+      "id": 23,
+      "name": "Fruit Shadow Sketch",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1Pp8TIRtbewhiAwBnnW8Nm1DrVZllRI2H/view?usp=drive_link"
+      ],
+      "tools": [
+        "pencil",
+        "sketch",
+        "still life"
+      ],
+      "behance_url": "",
+      "instagram_url": "https://www.instagram.com/p/W/fruit-shadow",
+      "description": "A fundamental exercise in **still life** mastery. This **pencil sketch** meticulously studies the texture of **fruit** and the way light defines form, with a keen focus on casting realistic **shadows**."
+    },
+    {
+      "id": 24,
+      "name": "Girl Facing Wind",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1kgL6tHsmR4YFQb4CjJgP5sxBklPwkPgN/view?usp=drive_link"
+      ],
+      "tools": [
+        "paint",
+        "colors",
+        "portrait"
+      ],
+      "behance_url": "https://www.behance.net/gallery/X/girl-in-wind-portrait",
+      "instagram_url": "",
+      "description": "An evocative **portrait painting** capturing a **Girl Facing the Wind**. Dynamic brushstrokes and flowing hair convey movement and a strong emotional connection to the elements, highlighted by contrasting **colors**."
+    },
+    {
+      "id": 25,
+      "name": "green eye sketch",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1IPljmJNHhKXvMA_tOEpdRcW0LhElejQK/view?usp=drive_link"
+      ],
+      "tools": [
+        "pencil",
+        "colors",
+        "sketch",
+        "portrait"
+      ],
+      "behance_url": "https://www.behance.net/gallery/Y/green-eye-detail",
+      "instagram_url": "https://www.instagram.com/p/Y/green-eye",
+      "description": "A highly detailed, mixed-media **portrait sketch** focusing solely on the mesmerizing intensity of a **green eye**. This work blends fine **pencil** lines with subtle hints of **colors** to achieve striking realism."
+    },
+    {
+      "id": 26,
+      "name": "Green Hijab Girl Painting",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1eLjS8clAY-XpPD1QyfHj-d9q9xdieGsj/view?usp=drive_link"
+      ],
+      "tools": [
+        "paint",
+        "colors",
+        "portrait"
+      ],
+      "behance_url": "",
+      "instagram_url": "https://www.instagram.com/p/Z/hijab-portrait",
+      "description": "A contemporary **portrait painting** of a **Girl** wearing a **Green Hijab**. The vibrant color palette and soft lighting draw focus to the subject's gaze, creating a powerful and intimate statement."
+    },
+    {
+      "id": 27,
+      "name": "Hoodi Girl",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/17BFY1CTfAO5UZXqaO6geEjWsfc6zCTxm/view?usp=drive_link"
+      ],
+      "tools": [
+        "paint",
+        "colors",
+        "portrait"
+      ],
+      "behance_url": "https://www.behance.net/gallery/AA/hoodie-girl-painting",
+      "instagram_url": "",
+      "description": "A modern, urban **portrait** rendered in **paint**, featuring a subject casually wearing a **Hoodi**. The piece captures a sense of contemporary isolation and subtle mystery through muted **colors** and strong shadows."
+    },
+    {
+      "id": 28,
+      "name": "Horses Running Portray",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1chh8Gn5aGEnIGRLy98zgZ_QzDYIZdKEQ/view?usp=drive_link"
+      ],
+      "tools": [
+        "paint",
+        "colors",
+        "animal"
+      ],
+      "behance_url": "https://www.behance.net/gallery/BB/running-horses-acrylic",
+      "instagram_url": "https://www.instagram.com/p/BB/horses-speed",
+      "description": "A magnificent **painting** capturing the powerful, unrestrained motion of **Horses Running**. Dynamic **paint** strokes and earthy **colors** convey the wild energy and grace of the **animal** in full flight."
+    },
+    {
+      "id": 29,
+      "name": "King Kong Painting",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1sgVLLamT3jvGW6LNaFDY4IeKO9ciyIix/view?usp=drive_link"
+      ],
+      "tools": [
+        "paint",
+        "colors",
+        "conceptual"
+      ],
+      "behance_url": "",
+      "instagram_url": "https://www.instagram.com/p/CC/king-kong-art",
+      "description": "A dramatic and evocative **conceptual painting** of the cinematic icon **King Kong**. The use of strong **colors** and bold composition explores themes of nature, civilization, and primal power."
+    },
+    {
+      "id": 30,
+      "name": "Kristen Stewart Simple Sketch",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1aMM8dFDBGLRukuhjCT1fVMUjWIBooPes/view?usp=drive_link"
+      ],
+      "tools": [
+        "pencil",
+        "sketch",
+        "portrait"
+      ],
+      "behance_url": "https://www.behance.net/gallery/DD/kristen-stewart-sketch",
+      "instagram_url": "",
+      "description": "A quick, minimalist **pencil sketch** capturing the distinct features and reserved elegance of actress **Kristen Stewart**. The piece demonstrates skill in achieving likeness through simple, confident lines."
+    },
+    {
+      "id": 31,
+      "name": "Mahmoud Abdel Aziz Simple sketch",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1yngJNjlpwFeqveEajGFtsTZlvjrNivXX/view?usp=drive_link"
+      ],
+      "tools": [
+        "pencil",
+        "sketch",
+        "portrait"
+      ],
+      "behance_url": "https://www.behance.net/gallery/EE/mahmoud-abdelaziz-sketch",
+      "instagram_url": "https://www.instagram.com/p/EE/mahmoud-portrait",
+      "description": "A heartfelt **pencil sketch** capturing the compelling presence of the late actor **Mahmoud Abdel Aziz**. The **portrait** focuses on the expressive details around the eyes and mouth to convey his deep charisma."
+    },
+    {
+      "id": 32,
+      "name": "Marilyn Monroe Sketch",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/10C2RWfrRgrpM-DLezEAzy_vjGT5TUL16/view?usp=drive_link"
+      ],
+      "tools": [
+        "pencil",
+        "sketch",
+        "portrait"
+      ],
+      "behance_url": "",
+      "instagram_url": "https://www.instagram.com/p/FF/marilyn-monroe-sketch",
+      "description": "An iconic **portrait sketch** of **Marilyn Monroe**. Executed in **pencil**, the work highlights her classic glamour while capturing the vulnerability beneath the public persona through subtle shading."
+    },
+    {
+      "id": 33,
+      "name": "Model Shock Sketch",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1q5ZdBAxEwuv0xJHZWSFKciN4u83Z4afL/view?usp=drive_link"
+      ],
+      "tools": [
+        "pencil",
+        "sketch",
+        "portrait"
+      ],
+      "behance_url": "https://www.behance.net/gallery/GG/shock-model-drawing",
+      "instagram_url": "",
+      "description": "A highly emotive **pencil portrait** capturing a momentary expression of **shock** or intensity. The **sketch** is a study in facial dynamics, using heavy lines to convey instantaneous, raw feeling."
+    },
+    {
+      "id": 34,
+      "name": "Model Sketch",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1KKi7FI8Nikda1qaiCw9pFBc1Mkh60lCB/view?usp=drive_link"
+      ],
+      "tools": [
+        "pencil",
+        "sketch",
+        "portrait"
+      ],
+      "behance_url": "https://www.behance.net/gallery/HH/quick-model-sketch",
+      "instagram_url": "https://www.instagram.com/p/HH/model-sketch",
+      "description": "A classic **model portrait** executed as a focused **pencil sketch**. This piece emphasizes anatomical accuracy and the subtle play of light and contour across the face and shoulders."
+    },
+    {
+      "id": 35,
+      "name": "Mother Horse",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1-URE6kW9MUcaQX9BgVGbe3f9aoa6K5cC/view?usp=drive_link"
+      ],
+      "tools": [
+        "paint",
+        "colors",
+        "animal"
+      ],
+      "behance_url": "",
+      "instagram_url": "https://www.instagram.com/p/II/mother-horse-painting",
+      "description": "A tender and powerful **painting** capturing the protective instinct of a **Mother Horse**. The realistic **animal** portraiture uses soft **colors** and detail to convey the emotional bond between mare and foal."
+    },
+    {
+      "id": 36,
+      "name": "My Dog (Maxmillion)",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1XmNaECOOvJDz_4RniUuZqVLhw5P8LJ_v/view?usp=drive_link"
+      ],
+      "tools": [
+        "paint",
+        "colors",
+        "animal"
+      ],
+      "behance_url": "https://www.behance.net/gallery/JJ/maxmillion-dog-portrait",
+      "instagram_url": "https://www.instagram.com/p/JJ/maxmillion-art",
+      "description": "A loving **painted portrait** of the artist's own **Dog, Maxmillion**. The lively **colors** and detailed fur textures capture the unique personality and playful spirit of the beloved **animal**."
+    },
+    {
+      "id": 37,
+      "name": "My Training Horse",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/17ethJwdXk7RHFSupnOc1BexLSXVqnWv6/view?usp=drive_link"
+      ],
+      "tools": [
+        "paint",
+        "colors",
+        "animal"
+      ],
+      "behance_url": "https://www.behance.net/gallery/KK/training-horse",
+      "instagram_url": "",
+      "description": "A focused **painting** of the artist's **Training Horse**. The work is a study of equestrian anatomy and discipline, using rich **colors** to emphasize the magnificent physique and temperament of the **animal**."
+    },
+    {
+      "id": 38,
+      "name": "On the seashore",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1J80H3OjPG1dyi6nLmZLuwumA-6SMU_7e/view?usp=drive_link"
+      ],
+      "tools": [
+        "pencil",
+        "sketch",
+        "nature"
+      ],
+      "behance_url": "",
+      "instagram_url": "https://www.instagram.com/p/LL/seashore-sketch",
+      "description": "A tranquil **pencil sketch** capturing the sweeping vista of the **seashore**. The focus is on the textures of sand, sea, and sky, conveying the expansive and calming presence of **nature**."
+    },
+    {
+      "id": 39,
+      "name": "Purple Pencil Paper Sketch",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1oT_PaWSQo3Ypm_sJ4a99joZsD4Kg9D65/view?usp=drive_link"
+      ],
+      "tools": [
+        "pencil",
+        "sketch"
+      ],
+      "behance_url": "https://www.behance.net/gallery/MM/purple-pencil-sketch",
+      "instagram_url": "https://www.instagram.com/p/MM/purple-pencil",
+      "description": "An experimental **sketch** executed using a **purple pencil**, bringing a unique, subtle color dimension to traditional drafting techniques. The work highlights the versatility of simple mediums on **paper**."
+    },
+    {
+      "id": 40,
+      "name": "Queen Sketch",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1Lqkg9l_V0r7T5pVHpRiIBweSWY7cunxn/view?usp=drive_link"
+      ],
+      "tools": [
+        "pencil",
+        "sketch",
+        "portrait"
+      ],
+      "behance_url": "",
+      "instagram_url": "",
+      "description": "A dignified **pencil sketch portrait** capturing the imposing posture and regal expression of a **Queen**. The detailed rendering of royal attire emphasizes her power and presence."
+    },
+    {
+      "id": 41,
+      "name": "Realistic Poor Old Man Painting",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1dxddC8bit1P5eCFDYT4N80qyQdPn7SRq/view?usp=drive_link"
+      ],
+      "tools": [
+        "paint",
+        "colors",
+        "portrait"
+      ],
+      "behance_url": "https://www.behance.net/gallery/OO/old-man-portrait",
+      "instagram_url": "https://www.instagram.com/p/OO/realistic-oldman",
+      "description": "A profoundly empathetic and **realistic portrait painting** of an **Old Man**. The careful use of earthy **colors** and deep shadows captures the texture of a life lived, focusing on the wisdom and resilience in his face."
+    },
+    {
+      "id": 42,
+      "name": "Red Dressed",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1ZgW_2kUC7ssv4-Rtw9rcCOaG0cVRXn1Z/view?usp=drive_link"
+      ],
+      "tools": [
+        "paint",
+        "colors",
+        "portrait"
+      ],
+      "behance_url": "https://www.behance.net/gallery/PP/red-dress-figure",
+      "instagram_url": "",
+      "description": "A striking **portrait painting** dominated by the passionate energy of a figure in a **Red Dress**. The bold color choice sets a dramatic mood, focusing on the contrast between the vibrant fabric and the subject's posture."
+    },
+    {
+      "id": 43,
+      "name": "Red Maple Tree",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/17Zw9Ja-Cdyn39_ymSj8ei0M_L6YDjtXd/view?usp=drive_link"
+      ],
+      "tools": [
+        "paint",
+        "colors",
+        "nature"
+      ],
+      "behance_url": "",
+      "instagram_url": "https://www.instagram.com/p/QQ/red-maple",
+      "description": "A classic **nature painting** featuring the intense, fiery hues of a **Red Maple Tree**. The work uses warm **colors** and dense **paint** layers to capture the seasonal beauty and intricate branches of the tree."
+    },
+    {
+      "id": 44,
+      "name": "Redhead Sketch",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1UvioqHMfcmg6_8DCz5P91EaBlqSyptBX/view?usp=drive_link"
+      ],
+      "tools": [
+        "pencil",
+        "sketch",
+        "portrait"
+      ],
+      "behance_url": "https://www.behance.net/gallery/RR/redhead-pencil-sketch",
+      "instagram_url": "",
+      "description": "A vibrant **portrait sketch** focused on the unique qualities of a **Redhead**. The **pencil** work is complemented by subtle tonal variations to suggest the subject's striking hair color and fair complexion."
+    },
+    {
+      "id": 45,
+      "name": "Rushdy Abaza Simple Sketch",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/12VfTs6OzA7D7sVRtEaqEYRtCyybumO3D/view?usp=drive_link"
+      ],
+      "tools": [
+        "pencil",
+        "sketch",
+        "portrait"
+      ],
+      "behance_url": "https://www.behance.net/gallery/SS/rushdy-abaza-sketch",
+      "instagram_url": "https://www.instagram.com/p/SS/rushdy-abaza",
+      "description": "An homage to the Egyptian legend **Rushdy Abaza** in a **simple pencil sketch**. The **portrait** captures his iconic, charismatic gaze with focused, expressive lines."
+    },
+    {
+      "id": 46,
+      "name": "Shadow Drawing",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1I4NZBpZOyM5TihbsAyRYN8OjYrorbXpl/view?usp=drive_link",
+        "https://drive.google.com/file/d/1ENMJs6gD6dppJJ0D_0rYQaFbvxuLqXfV/view?usp=drive_link"
+      ],
+      "tools": [
+        "pencil",
+        "drawing",
+        "abstract"
+      ],
+      "behance_url": "",
+      "instagram_url": "https://www.instagram.com/p/TT/shadow-abstract",
+      "description": "An **abstract drawing** that explores form solely through light and **shadow**. Using only **pencil**, the work creates fragmented or dissolved shapes, showcasing the artist's mastery of tone and contrast."
+    },
+    {
+      "id": 47,
+      "name": "Sketch on Desk",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1d2XWnZdgMXUah8Xg1n32ztIU4qKKa-6z/view?usp=drive_link"
+      ],
+      "tools": [
+        "pencil",
+        "sketch",
+        "still life"
+      ],
+      "behance_url": "https://www.behance.net/gallery/UU/desk-still-life",
+      "instagram_url": "",
+      "description": "An observational **still life sketch** capturing the quiet geometry of everyday objects found on a **desk**. The **pencil** work focuses on line quality and perspective."
+    },
+    {
+      "id": 48,
+      "name": "Small Turtles training",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1l0gvGKgWRgzI0HjcBX7QxPoclnZ0olfJ/view?usp=drive_link"
+      ],
+      "tools": [
+        "paint",
+        "colors",
+        "animal"
+      ],
+      "behance_url": "https://www.behance.net/gallery/VV/turtles-painting",
+      "instagram_url": "https://www.instagram.com/p/VV/turtles-art",
+      "description": "A charming and meticulously detailed **painting** of **Small Turtles** in a playful or 'training' environment. The bright, aquatic **colors** highlight the texture of their shells and the natural energy of the **animals**."
+    },
+    {
+      "id": 49,
+      "name": "Smoking Man",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/166IiDIAlTraKlmyh0suQIALkmnTV3mnp/view?usp=drive_link"
+      ],
+      "tools": [
+        "paint",
+        "colors",
+        "portrait"
+      ],
+      "behance_url": "",
+      "instagram_url": "https://www.instagram.com/p/WW/smoking-man",
+      "description": "A moody, atmospheric **portrait painting** of a **Smoking Man**. The work uses subtle **colors** and dramatic lighting to create a sense of introspection and melancholy, with the smoke adding a ghostly texture to the composition."
+    },
+    {
+      "id": 50,
+      "name": "Truth of self painting",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/19CccqJUoq6CDiQyl963-5IeabnRnRzuT/view?usp=drive_link"
+      ],
+      "tools": [
+        "paint",
+        "colors",
+        "conceptual"
+      ],
+      "behance_url": "https://www.behance.net/gallery/XX/truth-of-self-conceptual",
+      "instagram_url": "",
+      "description": "A deep, **conceptual painting** exploring the **Truth of Self**. Abstract and figurative elements merge, using symbolic **colors** and intense **paint** to visualize inner conflict and revelation."
+    },
+    {
+      "id": 51,
+      "name": "Void",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1Sap1Q7ODk16j9ipq8EyxHxKYY2as8S9E/view?usp=drive_link",
+        "https://drive.google.com/file/d/1FxWGdRanx7S94ytNNGlJ4NGw7lGeSOHn/view?usp=drive_link",
+        "https://drive.google.com/file/d/1iSOusodfOLfuBeNDYmL85E481wQ-2zaR/view?usp=drive_link"
+      ],
+      "tools": [
+        "digital",
+        "abstract"
+      ],
+      "behance_url": "https://www.behance.net/gallery/YY/void-digital-abstract",
+      "instagram_url": "https://www.instagram.com/p/YY/digital-void",
+      "description": "A pure **abstract** exploration of emptiness and space. Created using **digital** mediums, this piece features swirling forms and deep, contrasting non-colors to represent the feeling of the **Void**."
+    },
+    {
+      "id": 52,
+      "name": "Wash face",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1HXT2oOxzsYfu7wBuVR9gNCIkSO93umUC/view?usp=drive_link"
+      ],
+      "tools": [
+        "pencil",
+        "sketch",
+        "portrait"
+      ],
+      "behance_url": "",
+      "instagram_url": "https://www.instagram.com/p/ZZ/wash-face-sketch",
+      "description": "An intimate **portrait sketch** capturing the transient moment of washing one's **face**. The **pencil** work focuses on the wet texture of skin and hair, emphasizing realism and emotion in a private act."
+    },
+    {
+      "id": 53,
+      "name": "Wave on island",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/1zQHWk_ZOzkZcwG6lL91zkdUC6D7k510-/view?usp=drive_link"
+      ],
+      "tools": [
+        "paint",
+        "colors",
+        "nature"
+      ],
+      "behance_url": "https://www.behance.net/gallery/AAA/island-wave-painting",
+      "instagram_url": "",
+      "description": "A dynamic **nature painting** depicting a dramatic **Wave on an island**. The use of powerful blue and white **colors** conveys the explosive energy of the ocean crashing against the land."
+    },
+    {
+      "id": 54,
+      "name": "Wolves Beauty",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/13l3N_WGSd53-_ccE0mroe3XMTHjYks1a/view?usp=drive_link"
+      ],
+      "tools": [
+        "paint",
+        "colors",
+        "animal"
+      ],
+      "behance_url": "https://www.behance.net/gallery/BBB/wolves-beauty",
+      "instagram_url": "https://www.instagram.com/p/BBB/wolves-art",
+      "description": "A stunning **animal painting** that captures the elegant and wild **Beauty of Wolves**. Detailed fur and intense eyes, rendered with expressive **colors**, emphasize the majestic yet fierce nature of the pack."
+    },
+    {
+      "id": 55,
+      "name": "Young girl on beach",
+      "featured": false,
+      "image": [
+        "https://drive.google.com/file/d/14BrqAbVIjxyXsyMrAKVMTJVIWpiMFxhO/view?usp=drive_link"
+      ],
+      "tools": [
+        "paint",
+        "colors",
+        "portrait",
+        "nature"
+      ],
+      "behance_url": "",
+      "instagram_url": "https://www.instagram.com/p/CCC/girl-on-beach",
+      "description": "A poignant **portrait** of a **Young girl on a beach**. This painting beautifully integrates the subject with the surrounding **nature**, using soft **colors** to capture a feeling of reflection and childhood wonder by the water."
+    }
+  ]
+}
