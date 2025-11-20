@@ -13,6 +13,8 @@ const formatBasePath = (basePath: string) => {
   return basePath;
 };
 
+const DEFAULT_REPO_BASE = "me";
+
 const resolveBasePath = () => {
   if (process.env.VITE_BASE_PATH) {
     return formatBasePath(process.env.VITE_BASE_PATH);
@@ -23,7 +25,7 @@ const resolveBasePath = () => {
     return formatBasePath(repoName);
   }
 
-  return "/";
+  return formatBasePath(DEFAULT_REPO_BASE);
 };
 
 // https://vitejs.dev/config/

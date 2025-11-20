@@ -22,7 +22,7 @@ Available scripts:
 
 ## GitHub Pages Deployment
 The build automatically targets GitHub Pages:
-- `vite.config.ts` detects the `VITE_BASE_PATH` env var first, then falls back to the repository name from `GITHUB_REPOSITORY`, and finally `/`. This keeps static asset URLs correct for `<user>.github.io/<repo>/` (e.g., `https://msketch93.github.io/me/`).
+- `vite.config.ts` detects the `VITE_BASE_PATH` env var first, then falls back to the repository name from `GITHUB_REPOSITORY`, and finally `/me/` (the production URL). This keeps static asset URLs correct for `<user>.github.io/<repo>/` (e.g., `https://msketch93.github.io/me/`).
 - `BrowserRouter` reads `import.meta.env.BASE_URL`, so client-side navigation stays within `/me` (or whichever base path you use).
 - The workflow already exports `VITE_BASE_PATH=/<repo>/`, so you typically don’t need to set anything manually. For custom domains or different paths, override `VITE_BASE_PATH` (e.g., `VITE_BASE_PATH=/portfolio/ npm run build`).
 - Commit and push to `main`. Enable **Settings → Pages → Build and deployment → GitHub Actions** so the included `Node CI` workflow can ship the bundle automatically.
