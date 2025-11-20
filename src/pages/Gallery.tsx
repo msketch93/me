@@ -85,14 +85,9 @@ const Gallery = () => {
           {/* Gallery Grid */}
           {filteredProjects.length > 0 ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-              {filteredProjects.map((project, index) => {
-                const { ref, animationClass } = useScrollAnimation({ delay: index * 50 });
-                return (
-                  <div key={project.id} ref={ref} className={`transition-all duration-700 ${animationClass}`}>
-                    <ProjectCard project={project} />
-                  </div>
-                );
-              })}
+              {filteredProjects.map((project, index) => (
+                <AnimatedProjectCard key={project.id} project={project} index={index} />
+              ))}
             </div>
           ) : (
             <div className="text-center py-20">
@@ -106,3 +101,18 @@ const Gallery = () => {
 };
 
 export default Gallery;
+
+interface AnimatedProjectCardProps {
+  project: (typeof profileData.projects)[number];
+  index: number;
+}
+
+const AnimatedProjectCard = ({ project, index }: AnimatedProjectCardProps) => {
+  const { ref, animationClass } = useScrollAnimation({ delay: index * 50 });
+
+  return (
+    <div ref={ref} className={`transition-all duration-700 ${animationClass}`}>
+      <ProjectCard project={project} />
+    </div>
+  );
+};
