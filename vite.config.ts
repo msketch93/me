@@ -3,7 +3,28 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
 
-const repoBase = process.env.VITE_BASE_PATH ?? "/msketch/";
+const formatBasePath = (basePath: string) => {
+  if (!basePath.startsWith("/")) {
+    basePath = `/${basePath}`;
+  }
+  if (!basePath.endsWith("/")) {
+    basePath = `${basePath}/`;
+  }
+  return basePath;
+};
+
+const resolveBasePath = () => {
+  if (process.env.VITE_BASE_PATH) {
+    return formatBasePath(process.env.VITE_BASE_PATH);
+  }
+
+  const repoName = process.env.GITHUB_REPOSITORY?.split("/")[1];
+  if (repoName) {
+    return formatBasePath(repoName);
+  }
+
+  return "/";
+};
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
@@ -11,7 +32,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-  base: mode === "development" ? "/" : repoBase,
+  base: mode === "development" ? "/" : resolveBasePath(),
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
     alias: {
