@@ -13,7 +13,7 @@ const formatBasePath = (basePath: string) => {
   return basePath;
 };
 
-const DEFAULT_REPO_BASE = "msketch";
+const DEFAULT_REPO_BASE = "me";
 
 const resolveBasePath = () => {
   if (process.env.VITE_BASE_PATH) {
