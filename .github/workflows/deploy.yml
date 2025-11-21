@@ -1,15 +1,16 @@
 name: Deploy
 
 on:
+  push:
+    branches:
+      - main
+      - releases/**
   workflow_dispatch:
     inputs:
       ref:
         description: "Git reference (branch/tag) to deploy"
         required: false
         default: "main"
-  push:
-    branches:
-      - releases/**
 
 permissions:
   contents: read
