@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 import { Instagram } from "lucide-react";
+import { Badge } from "@/components/ui/badge";
 
 interface ProjectDialogProps {
   project: {
@@ -148,6 +149,21 @@ const ProjectDialog = ({ project, open, onOpenChange }: ProjectDialogProps) => {
                     <span>View on {link.label}</span>
                   </a>
                 </Button>
+              ))}
+            </div>
+          )}
+
+          {/* Tools tags */}
+          {project.tools.length > 0 && (
+            <div className="flex flex-wrap gap-2">
+              {project.tools.map((tool, index) => (
+                <Badge
+                  key={`${tool}-${index}`}
+                  variant="secondary"
+                  className="border border-border/50 bg-muted text-muted-foreground"
+                >
+                  {tool}
+                </Badge>
               ))}
             </div>
           )}
