@@ -7,6 +7,7 @@ import profileData from "@/data/profile.json";
 
 const Index = () => {
   const navigate = useNavigate();
+  const resumeUrl = `${import.meta.env.BASE_URL}Mona_Resume.pdf`;
 
   return (
     <div className="min-h-screen bg-background">
@@ -52,7 +53,7 @@ const Index = () => {
                 About the Artist
               </Button>
               <Button size="lg" variant="secondary" asChild>
-                <a href="/Mona_Resume.pdf" download target="_blank" rel="noopener noreferrer">
+                <a href={resumeUrl} download target="_blank" rel="noopener noreferrer">
                   Download CV
                 </a>
               </Button>
