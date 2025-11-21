@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting...</title>
+    <script>
+      (function () {
+        const { pathname, search, hash } = window.location;
+        const segments = pathname.split("/").filter(Boolean);
+        const repo = segments.length ? `/${segments[0]}` : "";
+        const base = repo || "";
+        const pathAfterBase = base && pathname.startsWith(base) ? pathname.slice(base.length) : pathname;
+        const normalizedPath = pathAfterBase.startsWith("/") ? pathAfterBase : `/${pathAfterBase}`;
+        const redirectTarget = encodeURIComponent(`${normalizedPath}${search}`);
+        const destinationBase = base ? `${base}/` : "/";
+        const destination = `${destinationBase}?redirect=${redirectTarget}${hash}`;
+        window.location.replace(destination);
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
