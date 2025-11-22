@@ -51,6 +51,7 @@ export default defineConfig(({ mode }) => {
     },
     build: {
       minify: 'esbuild', // Explicitly use esbuild for minification
+      sourcemap: true, // Enable source maps for production analysis
     },
   };
 });
