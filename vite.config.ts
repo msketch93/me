@@ -35,6 +35,10 @@ export default defineConfig(({ mode }) => {
     server: {
       host: "::",
       port: 8080,
+      headers: {
+        // Add a strict CSP header for dev server
+        'Content-Security-Policy': "default-src 'self'; script-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline'; base-uri 'self'; connect-src 'self' ws://localhost:8080; img-src 'self' data:; font-src 'self';"
+      },
     },
     base: isDev ? "/" : resolveBasePath(),
     plugins: [
@@ -46,6 +50,9 @@ export default defineConfig(({ mode }) => {
       alias: {
         "@": path.resolve(__dirname, "./src"),
       },
+    },
+    build: {
+      minify: 'esbuild', // Explicitly use esbuild for minification
     },
   };
 });
