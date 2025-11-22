@@ -1,7 +1,6 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
-import { componentTagger } from "lovable-tagger";
 
 const formatBasePath = (basePath: string) => {
   if (!basePath.startsWith("/")) {
@@ -42,7 +41,6 @@ export default defineConfig(({ mode }) => {
       react({
         fastRefresh: false,
       }),
-      isDev && componentTagger(),
     ].filter(Boolean),
     resolve: {
       alias: {
