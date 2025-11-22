@@ -7,6 +7,7 @@
     "start": "node index.js",
     "dev": "vite",
     "build": "vite build",
+    "postbuild": "node scripts/create-gh-404.cjs",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview"
