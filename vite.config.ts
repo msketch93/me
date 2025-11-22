@@ -29,16 +29,25 @@ const resolveBasePath = () => {
 };
 
 // https://vitejs.dev/config/
-export default defineConfig(({ mode }) => ({
-  server: {
-    host: "::",
-    port: 8080,
-  },
-  base: mode === "development" ? "/" : resolveBasePath(),
-  plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./src"),
+export default defineConfig(({ mode }) => {
+  const isDev = mode === "development";
+
+  return {
+    server: {
+      host: "::",
+      port: 8080,
     },
-  },
-}));
+    base: isDev ? "/" : resolveBasePath(),
+    plugins: [
+      react({
+        fastRefresh: false,
+      }),
+      isDev && componentTagger(),
+    ].filter(Boolean),
+    resolve: {
+      alias: {
+        "@": path.resolve(__dirname, "./src"),
+      },
+    },
+  };
+});
