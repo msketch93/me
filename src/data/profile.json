@@ -31,31 +31,41 @@
   "education": [
     {
       "name": "Ain Shams University",
-      "date": "2013 - 2016",
+      "date": "2024-2025",
       "main": false,
-      "todo": "Faculty of Commerce"
+      "todo": "Faculty Of Education"
     },
     {
       "name": "Ain Shams University",
-      "date": "2024-2025",
-      "main": true,
-      "todo": "Faculty Of Education"
+      "date": "2013 - 2016",
+      "main": false,
+      "todo": "Faculty of Commerce"
     }
   ],
   "work": [
+    {
+      "name": "Visual Artist & Painter, Freelancer",
+      "date": "August 2021 - Present",
+      "position": "Freelancer",
+      "location": "Maadi, Cairo, Egypt",
+      "role": "Full-time",
+      "main": true
+    },
     {
       "name": "Ali Al-Khatib, Tax Office",
       "date": "Feb 2020 - Aug 2021",
       "position": "Tax accountant",
       "location": "Nasr City",
-      "role": "Full-time"
+      "role": "Full-time",
+      "main": false
     },
     {
       "name": "School of Saint Mary",
       "date": "Feb 2019 - Feb 2020",
       "position": "Drawing Teacher",
       "location": "El-Zaytoun",
-      "role": "Part-time"
+      "role": "Part-time",
+      "main": false
     }
   ],
   "projects": [
