@@ -23,14 +23,21 @@ const Gallery = () => {
     return Array.from(tags).sort();
   }, []);
 
-  // Filter projects based on search and selected tags
+  // Filter projects based on search and selected tags, then always sort
+  // with `featured` projects first.
   const filteredProjects = useMemo(() => {
-    return profileData.projects.filter((project) => {
+    const filtered = profileData.projects.filter((project) => {
       const matchesSearch = project.name.toLowerCase().includes(searchQuery.toLowerCase());
       const matchesTags =
         selectedTags.length === 0 ||
         selectedTags.every((tag) => project.tools.includes(tag));
       return matchesSearch && matchesTags;
+    });
+
+    // Ensure featured projects appear first. Keep relative order otherwise.
+    return filtered.slice().sort((a, b) => {
+      if (a.featured === b.featured) return a.id - b.id;
+      return a.featured ? -1 : 1;
     });
   }, [searchQuery, selectedTags]);
 
