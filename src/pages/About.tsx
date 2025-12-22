@@ -84,7 +84,7 @@ const About = () => {
                       </div>
                       <span>
                         {job.main && (
-                          <span className="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full">
+                          <span className="px-3 py-1 my-1 bg-primary/20 text-primary text-xs rounded-full">
                             Current
                           </span>
                         )}
