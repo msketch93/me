@@ -82,13 +82,13 @@ const About = () => {
                           {job.location} • {job.date}
                         </p>
                       </div>
-                      <span className="px-3 py-1">
+                      <span>
                         {job.main && (
-                          <span className="bg-primary/20 text-primary text-xs rounded-full">
+                          <span className="px-3 py-1 bg-primary/20 text-primary text-xs rounded-full">
                             Current
                           </span>
                         )}
-                        <span className="bg-secondary text-secondary-foreground text-xs rounded-full">
+                        <span className="px-3 py-1 bg-secondary text-secondary-foreground text-xs rounded-full">
                           {job.role}
                         </span>
                       </span>
