@@ -88,7 +88,7 @@ const About = () => {
                             Current
                           </span>
                         )}
-                        <span className="px-3 py-1 bg-secondary text-secondary-foreground text-xs rounded-full">
+                        <span className={`px-3 py-1 bg-secondary text-secondary-foreground text-xs rounded-full ${job.main ? "ml-2" : ""}`}>
                           {job.role}
                         </span>
                       </span>
