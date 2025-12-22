@@ -62,7 +62,7 @@
     {
       "id": 0,
       "name": "Purple Japanese Maple",
-      "featured": false,
+      "featured": true,
       "image": [
         "https://drive.google.com/file/d/1mLrwWH0VVFCPcDxSa9aaEWetnENWJ5_c/view?usp=drive_link"
       ],
@@ -336,7 +336,7 @@
     {
       "id": 17,
       "name": "Circle Flamenco Dancer painting",
-      "featured": false,
+      "featured": true,
       "image": [
         "https://drive.google.com/file/d/1iE-aTz_eBuPC96creN_-wSr1KMJ-H3T0/view?usp=drive_link"
       ],
@@ -532,7 +532,7 @@
     {
       "id": 29,
       "name": "King Kong Painting",
-      "featured": false,
+      "featured": true,
       "image": [
         "https://drive.google.com/file/d/1sgVLLamT3jvGW6LNaFDY4IeKO9ciyIix/view?usp=drive_link"
       ],
@@ -723,7 +723,7 @@
     {
       "id": 41,
       "name": "Realistic Poor Old Man Painting",
-      "featured": false,
+      "featured": true,
       "image": [
         "https://drive.google.com/file/d/1dxddC8bit1P5eCFDYT4N80qyQdPn7SRq/view?usp=drive_link"
       ],
